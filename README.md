@@ -2,7 +2,7 @@
 - Initialized repo on macOS
 - Added .gitignore for env/ and .env
 ---
-## Repo Setup Summary (Part 1.1)
+## Repo Setup (Part 1.1)
 I ran `git init` inside my project folder `CPSC1710_HW2` to turn it into a Git repository then manually created two files:
 - `README.md` with a project title and environment setup log
 - `.gitignore` to exclude unnecessary files (e.g., `.env`, `env/`, cache files)
@@ -26,3 +26,7 @@ pycache/
 - 2025-09-13
   - Made local Python venv, installed packages, verified `.env` loading worked (`dotenv_loaded: True`, `OPENAI_API_KEY set: True`).
   - Created `1_tts_test.py`, ran it, and got `python_out.mp3` saying “hello from python version of the folder.”
+- 2025-09-13
+  - Completed Part 3.3: tested new TTS parameters, output sounds clearer.
+- 2025-09-13
+  - Finished Part 3.4: added error handling to TTS script, verified fallback works on missing key.
