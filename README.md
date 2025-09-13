@@ -18,3 +18,8 @@ pycache/
 - 3.1: create venv (`python -m venv env`), install deps, select interpreter
 - 3.2–3.4: add Python TTS scripts and log steps here
 ---
+
+
+## Activity Log
+- 2025-09-11
+- “Added 0_tts_test.sh and tested OpenAI TTS output (out.mp3).”
